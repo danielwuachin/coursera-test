@@ -1,0 +1,68 @@
+/*   BASE */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    margin-bottom: 5%;
+}
+#title1, #title2, #title3 {
+    font-size: 130%;
+    float: right;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    display: block;
+    margin-bottom: 1%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+#title1 {
+    background-color: aquamarine;
+}
+
+#title2 {
+    background-color: khaki;
+}
+
+#title3 {
+    background-color: cornsilk;
+}
+
+.row {
+    width: 100%;
+}
+
+.divs {
+    display: inline-block;
+    border: 2px solid black;
+    padding-left: 1%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-bottom: 3%;
+    background-color: darkgray;
+}
+p {
+    clear: right;
+    display: block;
+}
+
+@media (min-width: 992px) {
+    .divs {
+        width: 30%;
+    }
+}
+@media (min-width:768px) and (max-width: 991px) {
+    .divs {
+        width: 46%
+    }
+    #aaa {
+      width: auto;
+    }
+    
+}
+@media (max-width: 767px) {
+    
+}
